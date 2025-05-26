@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #E8F0F0;
+	font-family: 'Poppins', sans-serif;
+}
+
+main {
+	width: 90%;
+	height: 1800px;
+    margin-left: auto;
+	margin-right: auto;
+	background-color: whitesmoke;
+}
+
+header {
+    width: 100%;
+	height: 100px;
+	background-color: #3265A7;
+}
+
+nav { 
+	width: 35%;
+	height: 50px;
+	background-color: whitesmoke;
+	float: right;
+	margin-right: 15px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+section { 
+	width: 80%;
+	height: 1700px;
+	float: left;
+}
+
+footer { 
+    width: 100%;
+	height: 50px;
+	background-color: #3265A7;
+	clear: both;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 0;
+}
+
+#logo {
+    height: 45px;
+    width: 110px;
+	margin-right: auto;
+	margin-left: 20px;
+	position: relative;
+	margin-top: 23px;
+
+}
+
+#menu li {
+    display: inline;
+    float: right;
+ }
+
+
+#menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#menu a{
+   display: block;
+   color: #00294D;
+   text-decoration: none;
+   font-weight: 600;
+   padding: 8px;
+   float: left;
+   margin-top: 2px;
+   margin-left: 20px;
+   font-size: 17px;
+
+}
+
+#menu a:hover {
+    color: #34ace0;
+    text-decoration: underline;
+}
+
+a {
+    color: #00294D;
+    text-decoration: none;
+}
+
+#principal {
+	margin-top: 5%;
+	display: flex;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+    column-gap: 35%;
+}
+
+.primero {
+	float: center;
+    flex: 50%;
+}
+
+#principal:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.titulo {
+       color: #00294D;
+       font-family: 'italiana', sans-serif;
+       font-size: 40px;
+}
+
+.receta {
+    color: black;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+}
+
+.encabezados {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 15px
+}
+
+.fotoreceta {
+height: 400px;
+  width:400px;
+  margin-left: 10px;
+}
+
+
+ol {
+	font-size: 14px;
+}
+
+ul {
+   font-size: 14px;
+}
+
+#historia {
+    margin-top: 40%;
+	display: flex;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+    column-gap: 35%;
+}
+
+#historia:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.foto {
+    height:390px;
+	width: 390px;
+    margin-left: 10px;
+}
+
+.texto {
+     font-size: 14px;
+     font-weight: 400;
+
+}
+
+.vinculo {
+font-size: 14px;
+font-weight: 400;
+
+}
+
+#tutorial {
+    display: flex;
+    margin-top: 24%;
+    padding: 10px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo2 {
+       text-align: center;
+       color: #00294D;
+       font-family: 'italiana', sans-serif;
+       font-size: 40px;
+}
+
+
+.segundo {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-10%, -10%);
+}
+
+.texto-footer {
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
